@@ -51,7 +51,7 @@ export default function YoutubeVideo() {
                     </h1>
                     <div className="text-white pl-9">
                       <p className="text-white text-xs pt-3 text-gray-400">
-                        {statistics?.viewCount} views 9 Sept 2023
+                        {statistics?.viewCount} {snippet?.publishedAt}
                       </p>
                     </div>
                   </div>
